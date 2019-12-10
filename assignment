@@ -1,0 +1,17 @@
+Assignment 10
+1.复习上课内容
+2. 回答一下理论题目
+1. What is independent assumption in Naive bayes ?
+2. What is MAP(maximum a posterior) and ML(maximum likelihood) ?
+3. What is support vector in SVM?
+4. What is the intuition behind SVM ?
+5. Shortly describ what 'random' means in random forest ?
+6. What cariterion does XGBoost use to find the best split point in a tree ?
+3. Practial part
+Problem description: In this part you are going to build a classifier to detect if a piece of news is published by the Xinhua news agency (新华社）.
+Hints:
+1. Firstly, you have to come up with a way to represent the news. (Vectorize the sentence, you can find different ways to do so online)
+2. Secondly, pick a machine learning algorithm that you think is suitable for this task
+Congratulations! You have completed all assignments in this week. The question below is optional. If you still have time, why don't try it out.
+Option:
+Try differnt machine learning algorithms with different combinations of parameters in the practical part, and compare their performances (Better use some visualization techiniques).
