@@ -2,11 +2,26 @@ Assignment 10
 1.复习上课内容
 2. 回答一下理论题目
 1. What is independent assumption in Naive bayes ?
+   假设各特征之间相互独立。由于P(AB)=P(A)P(B)，所以P(a1,a2...,an|vj)=P(a1|vj)P(a2|vj)..P(an|vj)
+   这样预估每个特征的概率比较容易。
+   
 2. What is MAP(maximum a posterior) and ML(maximum likelihood) ?
+   maximum a posterior最大后验,等于max P(D|h)*P(h)；
+   maximum likelihood即为max P(D|h)；
+   两者差别在于先验概率P(h)，如果先验概率一样，则两者相同。
+
 3. What is support vector in SVM?
+   
+   
 4. What is the intuition behind SVM ?
+
+
 5. Shortly describ what 'random' means in random forest ?
+
+
 6. What cariterion does XGBoost use to find the best split point in a tree ?
+
+
 3. Practial part
 Problem description: In this part you are going to build a classifier to detect if a piece of news is published by the Xinhua news agency (新华社）.
 Hints:
