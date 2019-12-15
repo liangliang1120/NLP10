@@ -17,16 +17,20 @@ Assignment 10
    SVM是一个分类算法， 通过找到一条线或者一个分类平面， 将数据分隔在平面两侧，使得间隔最大化，从而达到最优分类的目的。
 
 5. Shortly describ what 'random' means in random forest ?
-
+   样本随机取得；随机选择一些特征。
 
 6. What cariterion does XGBoost use to find the best split point in a tree ?
-
+   目标函数等于自身的损失函数和正则化惩罚项,loss + regularization term
 
 3. Practial part
-Problem description: In this part you are going to build a classifier to detect if a piece of news is published by the Xinhua news agency (新华社）.
+Problem description: In this part you are going to build a classifier to detect 
+if a piece of news is published by the Xinhua news agency (新华社）.
 Hints:
-1. Firstly, you have to come up with a way to represent the news. (Vectorize the sentence, you can find different ways to do so online)
+1. Firstly, you have to come up with a way to represent the news. 
+   (Vectorize the sentence, you can find different ways to do so online)
 2. Secondly, pick a machine learning algorithm that you think is suitable for this task
-Congratulations! You have completed all assignments in this week. The question below is optional. If you still have time, why don't try it out.
+   Congratulations! You have completed all assignments in this week. The question below is optional. 
+   If you still have time, why don't try it out.
 Option:
-Try differnt machine learning algorithms with different combinations of parameters in the practical part, and compare their performances (Better use some visualization techiniques).
+   Try differnt machine learning algorithms with different combinations of parameters in the practical part, 
+   and compare their performances (Better use some visualization techiniques).
